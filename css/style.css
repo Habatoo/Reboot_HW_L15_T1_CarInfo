@@ -1,0 +1,53 @@
+div {
+font-family: sans-serif;
+border: 1px black solid;
+}
+
+body {
+background-color: lightgrey;
+}
+
+h2 {
+color:black;
+font-family: serif;
+font-size: 28px;
+font-weight: bold
+}
+
+h3 {
+color:black;
+font-family: serif;
+font-size: 20px;
+font-weight: bold
+}
+
+p {
+font: 12pt/10pt sans-serif;
+}
+
+.outer {
+text-align: center;
+margin-left: 50%;
+margin-right: 50%;
+}
+
+a {
+font: 12pt/10pt sans-serif;
+text-align: center;
+}
+/* unvisited link */
+a:link {
+  color: blue;
+}
+/* visited link */
+a:visited {
+  color: green;
+}
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+/* selected link */
+a:active {
+  color: red;
+}
